@@ -1,18 +1,28 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Syed Haris Shah"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
+library(tidyverse)
+library(here)
+library(kableExtra)
+library(knitr)
 
 ##### A note on this project:
 
 ## This project developed from Allison Horst's very cool intro to GitHub. 
 
 ```
+
+```{r grogu, echo=FALSE}
+
+knitr::include_graphics(here("some cool animals", "Grogu.jpg"))
+
+```
+
 
 
 ### Cool animal fun facts {.tabset .tabset-fade}
